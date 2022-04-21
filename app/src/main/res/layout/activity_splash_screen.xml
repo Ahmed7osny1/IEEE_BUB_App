@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/SplashScreenImage1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ieee"
+        android:transitionName="logo_image"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+         />
+
+    <TextView
+        android:id="@+id/SplashScreenImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="WELCOME"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#32397C"
+        android:textSize="40sp"
+         />
+
+
+</LinearLayout>
